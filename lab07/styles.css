@@ -1,0 +1,54 @@
+table, th, td{
+    border: 1px solid black;
+    color: #931a25;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+
+h1 {
+    font-size: 1.6em;
+    }
+
+h2 {
+    font-size: 1.4em;
+}
+
+h1, h2 {
+    color: #0278ae
+}
+
+p {
+    color: #51adcf
+}
+
+.acc, ul {
+    color: #f08a5d;
+}
+
+.evenrow {
+    background-color:#ebd4d4;
+    }
+
+.oddrow {
+    background-color: #fca652
+}
+
+nav {
+    background-color: #2b7cac;
+}
+
+nav a {
+    color: #f8efd4
+}
+
+nav a:hover {
+    background-color:#99f3bd
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
