@@ -4,8 +4,14 @@ table, th, td{
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d6e0f0;
 }
+
+a {
+    color: #056674;
+}
+
 
 h1 {
     font-size: 1.6em;
