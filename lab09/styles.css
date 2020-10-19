@@ -98,12 +98,14 @@ nav {
 }
 
 
-.links{float:right;
+.links{
+    float:right;
         position: absolute;
         left: 25em;
 }
 
-.form{flex:1; order: 1;
+.form{
+    flex:1; order: 1;
     float: left;
     padding: 5em;
 }
