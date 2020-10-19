@@ -120,4 +120,7 @@ right:2em;}
             max-width: 100%;
             display: block
         }
+        body nav span {
+            display: none;
+        }
     }
