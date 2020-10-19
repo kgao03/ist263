@@ -76,24 +76,30 @@ nav {
     padding-bottom: 1em;
 }
 
+
+
 .toppart {
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
-    padding: 25px;
-    border-radius: 25px;
-    margin: 15px;
+    padding: 2em;
+    border-radius: 2em;
+    margin: 1em;
 }
  .bottompart {
     display: flex;
     flex-wrap: wrap;
     background-color: #f08a5d;
-    padding: 25px;
-    border-radius: 25px;
-    margin: 15px;
+    padding: 2em;
+    border-radius: 2em;
+    margin: 15p1emx;
+
+
 }
+
+
 .address, .links {
-    
+
     margin: 2em;
     float:left;
         position: relative;
@@ -103,18 +109,23 @@ nav {
 
 
 .links{
+
     float:right;
         
 }
 
 .form{
     
+    display: flex;
     flex:1; order: 1;
     float: left;
     padding: 0.5em;
 }
 
-.map {flex:1; order: 2;
+.map {
+    display: flex;
+    flex:1; order: 2;
+    
     float: right;
     position: relative;
     right:0.5em;
