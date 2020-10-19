@@ -78,6 +78,7 @@ nav {
 
 .toppart {
     display: flex;
+    flex-wrap: wrap;
     background-color: aquamarine;
     padding: 25px;
     border-radius: 25px;
@@ -85,6 +86,7 @@ nav {
 }
  .bottompart {
     display: flex;
+    flex-wrap: wrap;
     background-color: #f08a5d;
     padding: 25px;
     border-radius: 25px;
@@ -109,3 +111,11 @@ nav {
 .map {flex:1; order: 2;
 position: relative;
 right:2em;}
+
+
+@media only screen and (max-width: 600px) {
+        body nav a{
+            max-width: 100%;
+            display: block
+        }
+    }
