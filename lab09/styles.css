@@ -105,16 +105,16 @@ nav {
 }
 
 .form{
-    flex-wrap: wrap;
+    
     flex:1; order: 1;
     float: left;
-    padding: 5em;
+    padding: 1em;
 }
 
 .map {flex:1; order: 2;
-    flex-wrap: wrap;
+    
 position: relative;
-right:2em;}
+right:1em;}
 
 
 @media only screen and (max-width: 600px) {
