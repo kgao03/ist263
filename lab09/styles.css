@@ -93,28 +93,32 @@ nav {
     margin: 15px;
 }
 .address, .links {
+    
     margin: 2em;
+    float:left;
+        position: relative;
+        left: 1em;
     
 }
 
 
 .links{
     float:right;
-        position: absolute;
-        left: 25em;
+        
 }
 
 .form{
     
     flex:1; order: 1;
     float: left;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .map {flex:1; order: 2;
-    
-position: relative;
-right:1em;}
+    float: right;
+    position: relative;
+    right:0.5em;
+}
 
 
 @media only screen and (max-width: 600px) {
