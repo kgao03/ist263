@@ -9,8 +9,9 @@ body {
 }
 
 a {
-    color: #056674;
+    color: #024e5a;
 }
+
 
 
 h1 {
@@ -44,17 +45,17 @@ p {
 
 
 nav {
-    background-color: #2b7cac;
+    background-color:#fca652
 }
 
 
 nav a {
-    color: #f8efd4
+    background-color: #d6e0f0
 }
 
 
 nav a:hover {
-    background-color:#99f3bd
+    background-color:#2CF5F0
 }
 
 nav {
