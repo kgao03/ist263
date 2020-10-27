@@ -150,3 +150,12 @@ nav {
             display: none;
         }
     }
+
+    #skip {
+        position: absolute; left: -999px;
+        background-color: #d6e0f0;
+    }
+    #skip:focus{
+        position: absolute; left:20px; 
+        
+    }
