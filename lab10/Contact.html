@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Contact</title>
+    <link rel= "stylesheet" href= "styles.css">
+</head>
+
+<body>
+  <nav><a href="index.html" tabindex="1">Home</a><span>|</span><a href="Skills.html" tabindex="2">Skills</a><span>|</span><a href="Contact.html" tabindex="3">Contact</a></nav>
+<h1>Contact</h1>
+
+<div class = "toppart">
+
+  <h2>Address</h2>
+
+  <div class="address">
+    <p>
+    407 Small RD,<br> Syracuse, NY 13210
+    </p>
+  </div>
+
+  <div class="links">
+    <a href="mailto:kgao03@syr.edu" tabindex="4">kgao03@syr.edu</a> <br>
+
+    <a href="https://www.linkedin.com/in/kangqiao-gao/" tabindex="5"> <img src="..//images/logo-sized.png" alt="LinkedIn Logo"> My LinkedIn Profile</a> <br>
+  </div>
+  
+</div>
+
+<div class="clearfloat"></div>
+
+  <div class = "bottompart">
+
+  
+    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.931642134026!2d-76.11808274851819!3d43.02182597904566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f363ca4d975f%3A0x34f45a5e1435ea9a!2s407%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599511803269!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+
+    <div class="form">
+
+      <form action="mailto:kgao03@syr.edu" method="POST">
+
+      <label for="LinkedInAccount" >Enter your LinkedIn Account</label>
+      <input type="text" name="LinkedInAccount" id="LinkedInAccount" tabindex="6"> <br>
+
+      <label for="Year">what year are you in:</label>
+      <select id="Year" name="Year" tabindex="7">
+        <option value="Fershman">Fershman</option>
+        <option value="Sophomore">Sophomore</option>
+        <option value="Junio">Junior</option>
+        <option value="Senior">Senior</option>
+        <option value="I'mNotInSchool">I'm not in school</option>
+      </select><br>
+
+      where do you live? <br>
+      <label for="theUS">theUS</label>
+      <input type="radio" id="theUS" name="place" value="theUS" tabindex="7">
+      <label for="OutsideTheUS">outsideTheUS</label>
+      <input type="radio" id="OutsideTheUS" name="place" value="OutsideTheUS" tabindex="8">
+       <br>
+
+
+
+      <textarea id="comment" name="comment" rows="4" cols="50" tabindex="9">
+      Leave a message to me!
+      </textarea>
+
+      <input type="submit" value="Send info" tabindex="10">
+
+      </form>
+    </div>
+    
+  </div>
+
+
+
+</body>
+
+</html>
