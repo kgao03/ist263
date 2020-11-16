@@ -94,15 +94,13 @@ nav a:hover{
     display: block;
     font-size: 23px;
     position: absolute;
-    height:60px;
-    top: 0px;
+    width: 300px;
+    height: 60px;
+    top: 0;
     left: 0;
     bottom: 55%;
-    right: 3%;
+    right: 0;
     margin: auto;
-    
-
-    
     
 }
 
