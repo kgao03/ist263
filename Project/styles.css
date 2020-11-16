@@ -57,6 +57,13 @@ nav a:hover{
     background-size: cover;
     position: relative;
 
+
+}
+
+.imagecontainer {
+    position:relative;
+    display:inline-block;
+    text-align:center;
 }
 
 #coverpage {
@@ -86,6 +93,12 @@ nav a:hover{
     text-decoration: none;
     display: block;
     font-size: 23px;
+    position: absolute;
+    height:60px;
+    top: 0px;
+    left: 0;
+    bottom: 55%;
+    right: 3%;
     margin: auto;
     
 
