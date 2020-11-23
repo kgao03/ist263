@@ -69,8 +69,7 @@ nav a:hover{
 #coverpage {
     float: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width:50%;
 }
 
@@ -102,6 +101,26 @@ nav a:hover{
     right: 0;
     margin: auto;
     
+}
+.responsiveiframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+.responsiveiframe {
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    padding-top: 56.25%;
+}
+
+#cocktailmenu img {
+    margin: 25px;
 }
 
 @media only screen and (max-width: 600px) {
