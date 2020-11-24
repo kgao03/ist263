@@ -27,6 +27,7 @@ img {
     float: right;
     position: relative;
     padding: 20px;
+    margin: 15px;
 }
 
 
@@ -119,9 +120,6 @@ nav a:hover{
     padding-top: 56.25%;
 }
 
-#cocktailmenu img {
-    margin: 25px;
-}
 
 @media only screen and (max-width: 600px) {
         body nav a{
