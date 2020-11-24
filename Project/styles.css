@@ -61,6 +61,9 @@ nav a:hover{
 
 
 }
+.smallscreen {
+    display:none;
+}
 
 #spirits p {
     text-align: center;
@@ -183,6 +186,12 @@ nav a:hover{
             position: relative;
             padding: 20px;
             margin: 15px;
+        }
+        #spirits {
+            display: none;
+        }
+        .smallscreen {
+            display: block;
         }
     }
 
