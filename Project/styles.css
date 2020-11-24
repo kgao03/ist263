@@ -31,6 +31,7 @@ img {
 }
 
 
+
 .navigation{
     size: 25px;
     background-color: rgb(224, 91, 24);
@@ -60,6 +61,52 @@ nav a:hover{
 
 
 }
+
+#spirits p {
+    text-align: center;
+}
+
+#spirits {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Vodka, .Whiskey, .Brandy, .Rum, .Gin, .Tequila {
+    flex: 1;
+    
+}
+#spirits img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#Brandy {
+    height: 360px;
+    width:280px;
+}
+
+#Vodka, #Whiskey {
+    height: 360px;
+    width:140px;
+}
+#Rum {
+    height: 360px;
+    width:100px;
+}
+#Gin{
+    height: 360px;
+    width:160px;
+}
+
+ #Tequila {
+    
+    height: 360px;
+    width:170px;
+}
+
+
 
 .imagecontainer {
     position:relative;
@@ -132,8 +179,10 @@ nav a:hover{
         }
         #cocktailmenu img {
             max-width:  100%;
-            margin-left: 15px;
-            margin-right: 15px;
+            display: block;
+            position: relative;
+            padding: 20px;
+            margin: 15px;
         }
     }
 
