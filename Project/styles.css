@@ -111,6 +111,30 @@ nav a:hover{
     width:170px;
 }
 
+.smallscreen img{float: none;}
+.smallscreen #Brandys {
+    height: 180px;
+    width:140px;
+}
+
+.smallscreen #Vodkas, .smallscreen #Whiskeys {
+    height: 180px;
+    width:70px;
+}
+.smallscreen #Rums {
+    height: 180px;
+    width:50px;
+}
+.smallscreen #Gins{
+    height: 180px;
+    width:80px;
+}
+
+.smallscreen #Tequilas {
+    
+    height: 180px;
+    width:85px;
+}
 
 
 .imagecontainer {
@@ -190,7 +214,7 @@ nav a:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
         body nav a{
             max-width: 100%;
             display: block
@@ -227,6 +251,7 @@ nav a:hover{
         .smallscreen {
             display: block;
         }
+        
     }
 
 
