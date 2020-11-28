@@ -156,6 +156,38 @@ nav a:hover{
     
 }
 
+.Rum #RumHome{
+    height: 360px;
+    width:290px;
+    display: none;
+}
+.Whiskey #WhiskeyHome {
+    height: 360px;
+    width:290px;
+    display: none;
+}
+.Brandy #BrandyHome {
+    height: 360px;
+    width:290px;
+    display: none;
+}
+.Vodka #VodkaHome {
+    height: 360px;
+    width:290px;
+    display: none;
+}
+
+.Tequila #TequilaHome {
+    height: 360px;
+    width:290px;
+    display: none;
+}
+.Gin #GinTonicHome {
+    height: 360px;
+    width:290px;
+    display: none;
+
+}
 
 
 @media only screen and (max-width: 600px) {

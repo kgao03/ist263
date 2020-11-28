@@ -8,7 +8,119 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <!-- this is my icon-->
 
-        <script src="myscript.js"></script>
+     
+
+  
+       <script>
+            function GinTonicOn () {
+            document.getElementById("GinTonicHome").style.display = "block";
+            }
+
+            function GinOff() {
+            document.getElementById("Gin").style.display = "none";
+            }
+
+            function GinTonicOff () {
+            document.getElementById("GinTonicHome").style.display = "none";
+            }
+
+            function GinOn() {
+            document.getElementById("Gin").style.display = "block";
+            }
+
+            /*Gin's Javascript*/
+
+             function TequilaSunriseOn () {
+            document.getElementById("TequilaHome").style.display = "block";
+            }
+
+            function TequilaOff() {
+            document.getElementById("Tequila").style.display = "none";
+            }
+
+            function TequilaSunriseOff () {
+            document.getElementById("TequilaHome").style.display = "none";
+            }
+
+            function TequilaOn() {
+            document.getElementById("Tequila").style.display = "block";
+            }
+            /*Tequila's Javascript*/
+
+            function RumCokeOn () {
+            document.getElementById("RumHome").style.display = "block";
+            }
+
+            function RumOff() {
+            document.getElementById("Rum").style.display = "none";
+            }
+
+            function RumCokeOff () {
+            document.getElementById("RumHome").style.display = "none";
+            }
+
+            function RumOn() {
+            document.getElementById("Rum").style.display = "block";
+            }
+            /*Rum's Javascript*/
+
+            function OldfashionedOn () {
+            document.getElementById("WhiskeyHome").style.display = "block";
+            }
+
+            function WhiskeyOff() {
+            document.getElementById("Whiskey").style.display = "none";
+            }
+
+            function OldfashionedOff () {
+            document.getElementById("WhiskeyHome").style.display = "none";
+            }
+
+            function WhiskeyOn() {
+            document.getElementById("Whiskey").style.display = "block";
+            }
+            /*Whiskey's Javascript*/
+
+            function LemonDropOn () {
+            document.getElementById("VodkaHome").style.display = "block";
+            }
+
+            function VodkaOff() {
+            document.getElementById("Vodka").style.display = "none";
+            }
+
+            function LemonDropOff () {
+            document.getElementById("VodkaHome").style.display = "none";
+            }
+
+            function VodkaOn() {
+            document.getElementById("Vodka").style.display = "block";
+            }
+            /*Vodka's Javascript*/
+
+            function AlexBrandyOn () {
+            document.getElementById("BrandyHome").style.display = "block";
+            }
+
+            function BrandyOff() {
+            document.getElementById("Brandy").style.display = "none";
+            }
+
+            function AlexBrandyOff () {
+            document.getElementById("BrandyHome").style.display = "none";
+            }
+
+            function BrandyOn() {
+            document.getElementById("Brandy").style.display = "block";
+            }
+            /*Brandy's Javascript*/
+
+           
+
+        </script>
+
+
+
 
         <title>Kirito's Homebar</title>
 
@@ -47,49 +159,54 @@
 
             <div class = "Gin"> 
                 <P>Gin</P>
-                <img src = "..//media/images/Gin.png" id = "Gin" alt = "Tanqueray No.10 Gin." onmouseover= ";" onmouseout=";" > 
+                <img src = "..//media/images/Gin.png" id = "Gin" alt = "Tanqueray No.10 Gin." onmouseover= "GinOff(); GinTonicOn();" onmouseout="GinOn(); GinTonicOff();"> 
+                <img src="../media/images/gin-tonic.jpg" id = "GinTonicHome" alt = "Gin and Tonic Cocktail.">
             </div>
             <div class = "clearfloat"></div>
             <div class = "Tequila">
                 <P>Tequila</P>
-                <img src = "..//media/images/Tequila.png" id = "Tequila" alt = "Espolon Tequila." onmouseover= ";" onmouseout=";" >
+                <img src = "..//media/images/Tequila.png" id = "Tequila" alt = "Espolon Tequila." onmouseover= "TequilaOff(); TequilaSunriseOn();" onmouseout="TequilaOn(); TequilaSunriseOff();" >
+                <img src = "../media/images/Tequila-Sunrise-with-Homemade-Grenadine.jpg" id = "TequilaHome" alt = "Home made tequila sunrise.">
             </div>
             <div class = "clearfloat"></div>
             <div class = "Rum">  
                 <P>Rum</P>
-                <img src = "..//media/images/rum.png" id = "Rum" alt = "Bacardi White Rum." onmouseover= ";" onmouseout=";">
+                <img src = "..//media/images/rum.png" id = "Rum" alt = "Bacardi White Rum." onmouseover= "RumOff();RumCokeOn();" onmouseout="RumCokeOff();RumOn();">
+                <img src = "../media/images/coke-and-rum.jpg" id = "RumHome" alt = "Rum and coke cocktail.">
             </div>
             <div class = "clearfloat"></div>
             <div class = "Whiskey">  
                 <P>Whiskey</P>
-                <img src = "..//media/images/Whiskey.png" id = "Whiskey" alt = "Maker's Mark bourbon Whiskey." onmouseover= ";" onmouseout=";">
+                <img src = "..//media/images/Whiskey.png" id = "Whiskey" alt = "Maker's Mark bourbon Whiskey." onmouseover= "WhiskeyOff();OldfashionedOn();" onmouseout="WhiskeyOn();OldfashionedOff();">
+                <img src = "../media/images/old-fashioned-glass.jpg" id = "WhiskeyHome" alt = "Old fashioned Whiskey cocktail.">
             </div>
             <div class = "clearfloat"></div>
             <div class = "Vodka"> 
                 <P>Vodka</P>
-                <img src = "..//media/images/Vodka.png" id = "Vodka" alt = "Absolute vodka." onmouseover= ";" onmouseout=";">
+                <img src = "..//media/images/Vodka.png" id = "Vodka" alt = "Absolute vodka." onmouseover= "VodkaOff();LemonDropOn();" onmouseout="LemonDropOff();VodkaOn();">
+                <img src =  "../media/images/Lemon-Drop-Martini.jpg" id = "VodkaHome" alt = "Lemon drop martini cocktail.">
             </div>
             <div class = "clearfloat"></div>
             <div class = "Brandy"> 
                 <P>Brandy</P>
-                <img src = "..//media/images/brandy.png" id = "Brandy" alt = "Hennessy cognac brandy." onmouseover= ";" onmouseout=";">
+                <img src = "..//media/images/brandy.png" id = "Brandy" alt = "Hennessy cognac brandy." onmouseover= "BrandyOff(); AlexBrandyOn();" onmouseout="BrandyOn();AlexBrandyOff();">
+                <img src = "../media/images/Alex-Brandy.png" id = "BrandyHome" alt= "Alexanda Brandy cocktail.">
             </div>
         </div>
 
         <div class= "smallscreen">
             <P>Gin</P>
-            <img src = "..//media/images/Gin.png" id = "Gins" alt = "Tanqueray No.10 Gin." onmouseover= ";" onmouseout=";" > 
+            <img src = "..//media/images/Gin.png" id = "Gins" alt = "Tanqueray No.10 Gin."  > 
             <P>Tequila</P>
-            <img src = "..//media/images/Tequila.png" id = "Tequila" alt = "Espolon Tequila." onmouseover= ";" onmouseout=";" >
+            <img src = "..//media/images/Tequila.png" id = "Tequila" alt = "Espolon Tequila.">
             <P>Rum</P>
-            <img src = "..//media/images/rum.png" id = "Rums" alt = "Bacardi White Rum." onmouseover= ";" onmouseout=";">
+            <img src = "..//media/images/rum.png" id = "Rums" alt = "Bacardi White Rum.">
             <P>Whiskey</P>
-            <img src = "..//media/images/Whiskey.png" id = "Whiskeys" alt = "Maker's Mark bourbon Whiskey." onmouseover= ";" onmouseout=";">
+            <img src = "..//media/images/Whiskey.png" id = "Whiskeys" alt = "Maker's Mark bourbon Whiskey." >
             <P>Vodka</P>
-            <img src = "..//media/images/Vodka.png" id = "Vodkas" alt = "Absolute vodka." onmouseover= ";" onmouseout=";">
+            <img src = "..//media/images/Vodka.png" id = "Vodkas" alt = "Absolute vodka." >
             <P>Brandy</P>
-            <img src = "..//media/images/brandy.png" id = "Brandys" alt = "Hennessy cognac brandy." onmouseover= ";" onmouseout=";">
-    
+            <img src = "..//media/images/brandy.png" id = "Brandys" alt = "Hennessy cognac brandy.">
         </div>
 
         <div class = "clearfloat"></div>
