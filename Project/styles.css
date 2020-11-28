@@ -11,6 +11,11 @@ h1,h6{
 
 }
 
+.smallscreen p {
+    font-size:1.8em;
+}
+
+
 h2,h3,h4,h5{
 
     font-family: 'Viga', sans-serif;
@@ -112,6 +117,7 @@ nav a:hover{
 }
 
 .smallscreen img{float: none;}
+
 .smallscreen #Brandys {
     height: 180px;
     width:140px;
@@ -132,7 +138,7 @@ nav a:hover{
 
 .smallscreen #Tequilas {
     
-    height: 180px;
+    height:180px;
     width:85px;
 }
 
@@ -179,6 +185,7 @@ nav a:hover{
     margin: auto;
     
 }
+
 
 .Rum #RumHome{
     height: 360px;
